@@ -1,3 +1,8 @@
+game:GetService'StarterGui':SetCore('SendNotification', {
+	Title = 'Credits',
+	Text = 'By Jus7_T3hVo1d | https://sites.google.com/view/vo1d-hub/home',
+	Duration = 60
+})
 local Vo1dHubV1 = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -387,10 +392,10 @@ Hub1.TextScaled = true
 Hub1.TextSize = 14.000
 Hub1.TextWrapped = true
 Hub1.MouseButton1Click:Connect(function()
-	game:SetCore('SendNotification', {
-		Title = 'Error ERROR 1029xVo1d',
-		Description = 'ERROR 1029xVo1d | Unable to import script!',
-		Duration = 10
+	game:GetService'StarterGui':SetCore('SendNotification', {
+		Title = 'Disabled__',
+		Text = 'Error 1xVoid | Cannot import script',
+		Duration = 60
 	})
 end)
 
