@@ -50,6 +50,7 @@ local CloseButton = Instance.new("TextButton")
 Vo1dHubV1.Name = "Vo1d Hub V1"
 Vo1dHubV1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 Vo1dHubV1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Vo1dHubV1.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = Vo1dHubV1
