@@ -1,7 +1,7 @@
-<style>
-  body {
-    background: linear-gradient(to bottom, #FCA5A5, #FCD34D);
-  }
-</style>
+body {
+  background: linear-gradient(to bottom, #0000FF, #A020F0);
+  background-attachment: fixed;
+}
+
 
 # Aloha X
